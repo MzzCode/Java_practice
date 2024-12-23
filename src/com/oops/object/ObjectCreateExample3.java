@@ -1,4 +1,4 @@
-package com.oops;
+package com.oops.object;
 
 // Class representing a Project with a name and duration
 // Implements the Cloneable interface to allow object cloning

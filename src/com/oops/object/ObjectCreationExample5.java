@@ -1,4 +1,4 @@
- package com.oops;
+ package com.oops.object;
 
  //Define a Blueprint (Interface):You create a blueprint for what a vehicle should do.
  
