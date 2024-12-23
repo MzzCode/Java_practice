@@ -1,4 +1,4 @@
-package com.oops;
+package com.oops.object;
 
 // 1. Using new Keyword
 class Employee{

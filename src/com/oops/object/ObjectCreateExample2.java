@@ -1,4 +1,4 @@
-package com.oops;
+package com.oops.object;
 
 // Class definition Myclass
 class Myclass {
