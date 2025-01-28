@@ -34,3 +34,15 @@ public static void main(String args[]) {
 	 System.out.println("BOI RateOfInterest: " +b.getRateOfInterest());
 }
 }
+/*
+ * This Java sample uses method overriding to demonstrate polymorphism. 
+ * It provides a method called getRateOfInterest() on the Bank type, which returns 0. 
+ * The Bank class is extended by the subclasses SBI, Kotak, and BOI, 
+ * which override the getRateOfInterest() function to return particular interest rates. 
+ * Objects of SBI, ICICI, and AXIS are created and assigned to a Bank reference variable b 
+ * in the TestPolymorphism class's main method. The relevant getRateOfInterest() method 
+ * is dynamically executed through polymorphism, depending on the actual object 
+ * type provided to b, and the interest rates for SBI, Kotak, and BOI banks are printed out.
+ */
+ 
+
