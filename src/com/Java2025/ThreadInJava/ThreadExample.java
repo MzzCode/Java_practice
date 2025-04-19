@@ -9,6 +9,6 @@ class MyThread extends Thread{
 public class ThreadExample {
 	public static void main(String args[]) {
 		MyThread myThread = new MyThread();
-		myThread.run();
+		myThread.start();
 	}
 }
