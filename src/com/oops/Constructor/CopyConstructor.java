@@ -13,7 +13,7 @@ class Employee{
 		this.address = address;
 	}
 	
-	// Copy constructor to create a new Employee object as a copy of an existing Employee object.
+	// Copy constructor 
 	//Creates a new Employee object as a copy of an existing Employee object (info).
 	//It initializes the new object's instance variables with the values from the existing object.
 	Employee(Employee info){
@@ -34,8 +34,9 @@ System.out.println("ID: "+e1.id+ ", Name: "+e1.name+ ", Address: "+e1.address);
 //Creates a new Employee object e2 as a copy of the e1 object using the copy constructor. 
 //This means e2 will have the same id, name, and address as e1.
 
-Employee e2 = new Employee(e1);
+Employee e2 = new Employee(e1); // e2 is a copy of e1
 System.out.println("\nSecond object by copy constructor");
 System.out.println("ID: "+e2.id+ ", Name: "+e2.name+ ", Address: "+e2.address);
 }
 }
+
