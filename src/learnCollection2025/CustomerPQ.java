@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class CustomerPQ {
 	public static void main(String args[]) {
-		Queue <Customer> customer = new PriorityQueue<>(new CustomerOrder());
+		Queue <Customer> customer = new PriorityQueue<>();
 		
 		customer.add(new Customer(5, 60.0, "Mega Wars"));
 		customer.add(new Customer(10,150.0 , "jhon deo"));

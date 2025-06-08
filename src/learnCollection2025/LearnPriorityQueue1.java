@@ -8,7 +8,7 @@ public class LearnPriorityQueue1 {
 	
 public static void main(String args[]) {
 		
-		// to change the default Min-Heap PQ we need to pass comparator in constructor of PQ
+		// to change the default Min-Heap PQ to Max-Heap we need to pass comparator in constructor of PQ
 		Queue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
 		
 		pq.add(10);

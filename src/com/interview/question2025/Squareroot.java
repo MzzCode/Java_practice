@@ -5,5 +5,9 @@ public class Squareroot {
 		
 		int num = 100;
 		System.out.println(Math.sqrt(num));
+		
+		int num2 = 480;
+		System.out.println(num2%10);
+		//System.out.println(num2/10);
 	}
 }
