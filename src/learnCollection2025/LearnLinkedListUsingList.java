@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LearnLinkedListUsingList {
 	public static void main(String args[]) {
-	// LinkedList as a List (index-based operations)
+	// LinkethubdList as a List (index-based operations)
 	List<String> list = new LinkedList<>();
 	
 	list.add("Apple");
